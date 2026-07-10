@@ -107,16 +107,12 @@ export default function App() {
       {/* Floating Call CTA */}
       <a
         href="tel:+918790851377"
-        className="fixed bottom-24 right-6 z-50 flex items-center justify-center w-14 h-14 bg-brand-orange text-white rounded-full shadow-2xl hover:bg-brand-orange-light hover:scale-110 transition-all duration-300 group cursor-pointer animate-pulse"
+        className="fixed bottom-24 right-6 z-50 flex items-center gap-2 px-4 py-3 bg-brand-orange text-white rounded-full shadow-2xl hover:bg-brand-orange-light hover:scale-105 transition-all duration-300 group cursor-pointer"
         aria-label="Call Star Pest Control Support"
       >
-        {/* Ripple ring animation */}
         <span className="absolute inset-0 rounded-full bg-brand-orange/30 animate-ping group-hover:animate-none"></span>
-        <Phone className="w-6 h-6 relative z-10" />
-        {/* Tooltip */}
-        <span className="absolute right-16 scale-0 group-hover:scale-100 transition-all duration-200 bg-slate-900 text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1.5 rounded-lg whitespace-nowrap shadow-xl">
-          Call Support
-        </span>
+        <Phone className="w-5 h-5 relative z-10 animate-pulse" />
+        <span className="relative z-10 text-xs sm:text-sm font-extrabold tracking-wide">+91 8790851377</span>
       </a>
 
       {/* Floating WhatsApp CTA */}

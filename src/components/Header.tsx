@@ -106,7 +106,7 @@ export default function Header({ onNavigate, activeSection }: HeaderProps) {
               className="flex items-center gap-1.5 px-3 py-1.5 border border-[#4B164C]/15 rounded-full text-xs font-semibold text-[#4B164C] hover:bg-[#4B164C]/5 transition-all"
             >
               <Phone size={13} className="text-brand-orange animate-pulse" />
-              <span>Call Support</span>
+              <span>Call: +91 8790851377</span>
             </a>
             <a
               href="https://wa.me/918790851377?text=Hi%20Star%20Pest%20Control,%20I%20would%20like%20to%20book%20a%20pest%20control%20service."
@@ -153,20 +153,20 @@ export default function Header({ onNavigate, activeSection }: HeaderProps) {
               </button>
             ))}
             <div className="pt-2 border-t border-gray-100 flex flex-col gap-2.5 font-sans">
-              <div className="grid grid-cols-3 gap-1.5 text-center">
+              <div className="grid grid-cols-1 gap-2 text-center">
                 <a
                   href="tel:+918790851377"
-                  className="flex flex-col justify-center items-center gap-1 py-2.5 border border-slate-200 rounded-xl text-[10px] font-bold text-slate-700 hover:bg-slate-50"
+                  className="flex items-center justify-center gap-2 py-2.5 border border-slate-200 rounded-xl text-xs font-bold text-slate-700 hover:bg-slate-50"
                 >
                   <Phone size={14} className="text-[#F15A24]" />
-                  <span>Call 1</span>
+                  <span>Call: +91 8790851377</span>
                 </a>
                 <a
                   href="tel:+919492931535"
-                  className="flex flex-col justify-center items-center gap-1 py-2.5 border border-slate-200 rounded-xl text-[10px] font-bold text-slate-700 hover:bg-slate-50"
+                  className="flex items-center justify-center gap-2 py-2.5 border border-slate-200 rounded-xl text-xs font-bold text-slate-700 hover:bg-slate-50"
                 >
                   <Phone size={14} className="text-[#F15A24]" />
-                  <span>Call 2</span>
+                  <span>Call: +91 9492931535</span>
                 </a>
                 <a
                   href="https://wa.me/918790851377?text=Hi%20Star%20Pest%20Control,%20I%20would%20like%20to%20book%20a%20pest%20control%20service."

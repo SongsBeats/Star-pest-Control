@@ -133,9 +133,10 @@ export default function Solutions() {
           </div>
           <a
             href="tel:+918790851377"
-            className="px-6 py-3 bg-brand-purple hover:bg-brand-purple-light text-white text-xs font-bold rounded-xl whitespace-nowrap shadow-md shadow-brand-purple/10 hover:shadow-lg transition-all"
+            className="flex items-center gap-2 px-6 py-3 bg-brand-purple hover:bg-brand-purple-light text-white text-xs font-bold rounded-xl whitespace-nowrap shadow-md shadow-brand-purple/10 hover:shadow-lg transition-all"
           >
-            Ask An Specialist
+            <Phone size={15} />
+            <span>Call Specialist: +91 8790851377</span>
           </a>
         </div>
       </div>
