@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Info, Check, Sparkles } from "lucide-react";
+import { Info, Check, Sparkles, Phone } from "lucide-react";
 import { TECHNIQUES_DATA } from "../data";
 import LucideIcon from "./LucideIcon";
 
