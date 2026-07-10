@@ -146,7 +146,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                   📍 Madanapalle Branch Office:
                 </span>
                 <span className="leading-relaxed">
-                  Door No: 3-145-B-5-2, 1st Floor, Prasanth Nagar, Near LIC Office, Madanapalle, Andhra Pradesh, Pincode - 517325
+                  Prasanth Nagar, Near LIC Office, Madanapalle, Andhra Pradesh, Pincode - 517325
                 </span>
               </div>
 

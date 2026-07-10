@@ -90,7 +90,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               <MapPin size={16} className="text-brand-orange shrink-0 mt-0.5" />
               <div>
                 <strong className="text-slate-200 block">Star Pest Control</strong>
-                <span>Door No: 3-145-B-5-2, 1st Floor, Prasanth Nagar, Near LIC Office, Madanapalle, Andhra Pradesh - 517325</span>
+                <span>Prasanth Nagar, Near LIC Office, Madanapalle, Andhra Pradesh, Pincode - 517325</span>
               </div>
             </div>
 
