@@ -43,7 +43,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             <Logo size="md" />
           </div>
           <p className="text-slate-400 mt-2 text-xs leading-relaxed max-w-sm">
-            At Star Pest Control, we prioritize your safety, delivering reliable chemical and physical barrier solutions to defend residential, commercial, and construction sites against destructive invaders.
+            At Star Pest Control across Andhra Pradesh & Telangana, we prioritize your safety, delivering reliable chemical and physical barrier solutions to defend residential, commercial, and construction sites against destructive invaders.
           </p>
           <div className="flex gap-2.5 mt-2">
             <span className="p-2 bg-slate-800 hover:bg-slate-700 text-white rounded-lg transition-colors cursor-pointer">

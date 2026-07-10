@@ -33,7 +33,7 @@ export default function Hero({ onNavigate }: HeroProps) {
               className="inline-flex items-center gap-1.5 px-3 py-1 bg-brand-purple/5 text-brand-purple rounded-full text-xs font-bold uppercase tracking-wider mb-6 border border-brand-purple/10"
             >
               <Shield size={12} className="text-brand-orange" />
-              <span>Certified Pest Control Specialists</span>
+              <span>Certified Pest Control Specialists across Andhra Pradesh & Telangana</span>
             </motion.div>
 
             {/* Main Headline */}
@@ -56,7 +56,7 @@ export default function Hero({ onNavigate }: HeroProps) {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="mt-6 text-base sm:text-lg text-slate-600 max-w-xl leading-relaxed font-sans"
             >
-              Rely on <strong className="text-brand-purple font-semibold">Star Pest Control</strong> in Madanapalle for ultimate peace of mind. We ensure a healthy, pest-free home by eliminating rats, termites, cockroaches, mosquitoes, and spiders under professional expertise.
+              Rely on <strong className="text-brand-purple font-semibold">Star Pest Control</strong> across Andhra Pradesh and Telangana for ultimate peace of mind. We ensure a healthy, pest-free home by eliminating rats, termites, cockroaches, mosquitoes, and spiders under professional expertise.
             </motion.p>
 
             {/* Highlights */}
