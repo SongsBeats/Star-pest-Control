@@ -74,13 +74,19 @@ export default function Header({ onNavigate, activeSection }: HeaderProps) {
       <header
         className={`sticky top-0 z-50 transition-all duration-300 ${
           scrolled
-            ? "bg-white shadow-md py-2"
-            : "bg-white/95 backdrop-blur-md py-4 border-b border-gray-100"
+            ? "bg-white/95 backdrop-blur-md shadow-md py-2"
+            : "bg-white/90 backdrop-blur-md py-3 border-b border-gray-100"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 md:px-6 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 flex justify-between items-center gap-4">
           {/* Brand Logo */}
-          <Logo size="sm" showTagline={!scrolled} />
+          <div
+            onClick={() => handleItemClick("home")}
+            className="cursor-pointer shrink-0 transition-transform hover:opacity-95"
+            title="Star Pest Control - Home"
+          >
+            <Logo size="sm" />
+          </div>
 
           {/* Desktop Navigation Links */}
           <nav className="hidden lg:flex items-center gap-1">
