@@ -128,6 +128,12 @@ export default function Footer({ onNavigate }: FooterProps) {
           <a href="#" className="hover:text-slate-300">Sitemap</a>
         </div>
       </div>
+        <div className="managed-by" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, marginTop: 10, fontSize: 13 }}>
+          Managed by{' '}
+          <a href="https://vgrow.ai" target="_blank" rel="noopener" style={{ display: 'inline-flex', background: '#fff', borderRadius: 6, padding: '3px 8px' }}>
+            <img src="/vgrow-logo.png" alt="vgrow.ai" height={18} style={{ height: 18, width: 'auto' }} />
+          </a>
+        </div>
     </footer>
   );
 }
